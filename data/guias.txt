@@ -1,0 +1,4 @@
+# Formato: rut;nombre;apellido;email;telefono;calle;numero;comuna;region;especialidad;idiomas;tarifaPorDia
+11111111-1;Pedro;Barrientos;pedro.barrientos@lltour.cl;+56955555555;Camino Ensenada;km5;Puerto Varas;Los Lagos;Trekking y volcanes;Espanol e Ingles;85000
+12345678-5;Valentina;Ojeda;valentina.ojeda@lltour.cl;+56966666666;Calle Principal;321;Llanquihue;Los Lagos;Rutas gastronomicas;Espanol y Portugues;70000
+9876543-3;Rodrigo;Alvarado;rodrigo.alvarado@lltour.cl;+56977777777;Costanera;654;Frutillar;Los Lagos;Paseos lacustres;Espanol e Ingles;90000

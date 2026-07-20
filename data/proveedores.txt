@@ -1,0 +1,4 @@
+# Formato: rut;nombre;apellido;email;telefono;calle;numero;comuna;region;tipoServicio;nombreEmpresa
+18456789-K;Marcela;Vidal;contacto@transportesvidal.cl;+56988888888;Ruta 5 Sur;km1020;Puerto Montt;Los Lagos;Transporte;Transportes Vidal Ltda
+10203040-0;Jorge;Kuschel;reservas@hostalvolcanes.cl;+56999999999;Vicente Perez Rosales;88;Puerto Varas;Los Lagos;Alojamiento;Hostal Los Volcanes
+22334455-0;Ana;Oyarzun;ana@sabordelsur.cl;+56912121212;Antonio Varas;500;Llanquihue;Los Lagos;Gastronomia;Sabor del Sur SpA

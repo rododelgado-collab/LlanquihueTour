@@ -1,0 +1,9 @@
+# Archivos compilados y de construcción
+target/
+*.class
+
+# Archivos del IDE
+nbproject/private/
+.idea/
+*.iml
+nb-configuration.xml

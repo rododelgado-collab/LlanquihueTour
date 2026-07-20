@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cl.duoc</groupId>
+    <artifactId>LlanquihueTour</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>LlanquihueTour</name>
+    <description>Prototipo de gestión para la agencia de turismo Llanquihue Tour - EFT PRY2202</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>app.Main</exec.mainClass>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- Permite generar la documentación Javadoc con: mvn javadoc:javadoc -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.11.2</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <docencoding>UTF-8</docencoding>
+                    <charset>UTF-8</charset>
+                    <show>private</show>
+                    <!-- Los get/set se agrupan bajo comentarios de sección,
+                         por lo que no se exige Javadoc individual en ellos -->
+                    <doclint>all,-missing</doclint>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

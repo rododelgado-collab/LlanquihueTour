@@ -1,0 +1,5 @@
+# Formato: rut;nombre;apellido;email;telefono;calle;numero;comuna;region;puntosFidelidad
+16789123-3;Camila;Soto;camila.soto@gmail.com;+56911111111;Av. Alemania;456;Puerto Varas;Los Lagos;120
+20345678-6;Matias;Riquelme;matias.riquelme@gmail.com;+56922222222;Calle Errazuriz;789;Llanquihue;Los Lagos;45
+13579246-2;Fernanda;Paredes;fer.paredes@outlook.com;+56933333333;Los Colonos;101;Frutillar;Los Lagos;300
+19283746-4;Ignacio;Mansilla;ignacio.mansilla@duocuc.cl;+56944444444;Av. Angelmo;2020;Puerto Montt;Los Lagos;0

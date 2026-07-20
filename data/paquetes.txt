@@ -1,0 +1,5 @@
+# Formato: codigo;nombre;destino;cupos;rutGuia;actividad1-horario1-precio1|actividad2-horario2-precio2
+PKG001;Ruta Lagos y Volcanes;Petrohue y Volcan Osorno;20;11111111-1;Trekking Saltos de Petrohue-09:00-18000|Ascenso base Volcan Osorno-13:00-25000|Snack de montana-16:30-7000
+PKG002;Tour Gastronomico Lacustre;Llanquihue y Frutillar;15;12345678-5;Degustacion de kuchen aleman-10:30-12000|Almuerzo curanto tradicional-13:30-22000|Visita cerveceria artesanal-17:00-15000
+PKG003;Navegacion Lago Llanquihue;Puerto Varas;30;9876543-3;Paseo en catamaran-11:00-28000|Coctel a bordo-12:30-9000
+PKG004;Ruta Cultural Colonos Alemanes;Frutillar y Puerto Octay;18;12345678-5;Museo Colonial Aleman-10:00-8000|Recorrido Teatro del Lago-12:00-10000|Cafe historico-15:00-6000
