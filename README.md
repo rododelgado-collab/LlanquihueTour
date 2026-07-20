@@ -69,7 +69,7 @@ git clone https://github.com/rododelgado-collab/LlanquihueTour.git
 ---
 
 **Repositorio GitHub:** https://github.com/rododelgado-collab/LlanquihueTour
-**Fecha de entrega:** \[DD/MM/2026]
+**Fecha de entrega:** \[19/07/2026]
 
 ---
 
