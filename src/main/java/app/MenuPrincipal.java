@@ -94,7 +94,7 @@ public class MenuPrincipal {
             case 12 -> cancelarUltimaReserva();
             case 13 -> mostrarResumenVentas();
             case 0 -> { /* salir */ }
-            default -> System.out.println("Opción no válida, intente nuevamente.");
+            default -> System.out.println("Opcion no valida, intente nuevamente.");
         }
         System.out.println();
     }
@@ -110,7 +110,7 @@ public class MenuPrincipal {
             if (registrable instanceof Cliente) {
                 System.out.print("Tipo detectado: CLIENTE -> ");
             } else if (registrable instanceof GuiaTuristico) {
-                System.out.print("Tipo detectado: GUÍA -> ");
+                System.out.print("Tipo detectado: GUIA -> ");
             } else if (registrable instanceof Proveedor) {
                 System.out.print("Tipo detectado: PROVEEDOR -> ");
             } else if (registrable instanceof PaqueteTuristico) {
@@ -145,7 +145,7 @@ public class MenuPrincipal {
         if (paquete != null) {
             paquete.mostrarDatos();
         } else {
-            System.out.println("No existe un paquete con código " + codigo);
+            System.out.println("No existe un paquete con codigo " + codigo);
         }
     }
 
@@ -171,7 +171,7 @@ public class MenuPrincipal {
         System.out.print("RUT del cliente: ");
         Cliente cliente = agencia.buscarClientePorRut(scanner.nextLine().trim());
         if (cliente == null) {
-            System.out.println("Cliente no encontrado. Registrelo primero (opción 11).");
+            System.out.println("Cliente no encontrado. Registrelo primero (opcion 11).");
             return;
         }
         System.out.print("Codigo del paquete: ");
@@ -186,7 +186,7 @@ public class MenuPrincipal {
             System.out.println("No hay cupos suficientes (disponibles: "
                     + paquete.getCuposDisponibles() + ").");
         } else {
-            System.out.println("Reserva creada con éxito:");
+            System.out.println("Reserva creada con exito:");
             System.out.println(reserva);
         }
     }
@@ -223,7 +223,7 @@ public class MenuPrincipal {
             String telefono = scanner.nextLine().trim();
             System.out.print("Calle: ");
             String calle = scanner.nextLine().trim();
-            System.out.print("Número: ");
+            System.out.print("Numero: ");
             String numero = scanner.nextLine().trim();
             System.out.print("Comuna: ");
             String comuna = scanner.nextLine().trim();
@@ -246,7 +246,7 @@ public class MenuPrincipal {
             System.out.println("No hay reservas para cancelar.");
             return;
         }
-        System.out.println("Reserva cancelada (se desapiló la mas reciente):");
+        System.out.println("Reserva cancelada (se desapilo la mas reciente):");
         System.out.println(cancelada);
         System.out.println("Cupos restituidos al paquete " + cancelada.getPaquete().getCodigo()
                 + " (disponibles ahora: " + cancelada.getPaquete().getCuposDisponibles() + ").");
@@ -301,7 +301,7 @@ public class MenuPrincipal {
             try {
                 return Double.parseDouble(scanner.nextLine().trim());
             } catch (NumberFormatException e) {
-                System.out.println("Debe ingresar un número valido.");
+                System.out.println("Debe ingresar un numero valido.");
             }
         }
     }

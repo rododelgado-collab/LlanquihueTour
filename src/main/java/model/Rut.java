@@ -26,7 +26,7 @@ public class Rut {
      */
     public Rut(String rutTexto) throws RutInvalidoException {
         if (rutTexto == null || !rutTexto.matches("\\d{7,8}-[\\dkK]")) {
-            throw new RutInvalidoException("Formato de RUT inválido: " + rutTexto
+            throw new RutInvalidoException("Formato de RUT invalido: " + rutTexto
                     + " (se espera por ejemplo 12345678-5)");
         }
         String[] partes = rutTexto.split("-");
@@ -35,7 +35,7 @@ public class Rut {
 
         char dvCalculado = calcularDigitoVerificador(this.numero);
         if (dvCalculado != this.digitoVerificador) {
-            throw new RutInvalidoException("El dígito verificador del RUT " + rutTexto
+            throw new RutInvalidoException("El digito verificador del RUT " + rutTexto
                     + " es incorrecto (se esperaba " + dvCalculado + ")");
         }
     }

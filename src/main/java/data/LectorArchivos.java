@@ -75,7 +75,7 @@ public class LectorArchivos {
                 clientes.add(new Cliente(rut, campos[1], campos[2], campos[3],
                         campos[4], direccion, puntos));
             } catch (RutInvalidoException | ArrayIndexOutOfBoundsException | NumberFormatException e) {
-                System.out.println("[ADVERTENCIA] Línea de cliente omitida: " + e.getMessage());
+                System.out.println("[ADVERTENCIA] Linea de cliente omitida: " + e.getMessage());
             }
         }
         return clientes;
@@ -98,7 +98,7 @@ public class LectorArchivos {
                 guias.add(new GuiaTuristico(rut, campos[1], campos[2], campos[3],
                         campos[4], direccion, campos[9], campos[10], tarifa));
             } catch (RutInvalidoException | ArrayIndexOutOfBoundsException | NumberFormatException e) {
-                System.out.println("[ADVERTENCIA] Línea de guía omitida: " + e.getMessage());
+                System.out.println("[ADVERTENCIA] Linea de guia omitida: " + e.getMessage());
             }
         }
         return guias;
@@ -120,7 +120,7 @@ public class LectorArchivos {
                 proveedores.add(new Proveedor(rut, campos[1], campos[2], campos[3],
                         campos[4], direccion, campos[9], campos[10]));
             } catch (RutInvalidoException | ArrayIndexOutOfBoundsException e) {
-                System.out.println("[ADVERTENCIA] Línea de proveedor omitida: " + e.getMessage());
+                System.out.println("[ADVERTENCIA] Linea de proveedor omitida: " + e.getMessage());
             }
         }
         return proveedores;
@@ -153,7 +153,7 @@ public class LectorArchivos {
                 }
                 paquetes.add(paquete);
             } catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {
-                System.out.println("[ADVERTENCIA] Línea de paquete omitida: " + e.getMessage());
+                System.out.println("[ADVERTENCIA] Linea de paquete omitida: " + e.getMessage());
             }
         }
         return paquetes;

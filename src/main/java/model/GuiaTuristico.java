@@ -78,6 +78,6 @@ public class GuiaTuristico extends Persona {
     public String toString() {
         return super.toString() + " | Especialidad: " + especialidad
                 + " | Idiomas: " + idiomas
-                + " | Tarifa/día: $" + String.format("%,.0f", tarifaPorDia);
+                + " | Tarifa/dia: $" + String.format("%,.0f", tarifaPorDia);
     }
 }
